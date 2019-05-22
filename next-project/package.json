@@ -1,0 +1,26 @@
+{
+  "name": "next-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.18.2",
+    "babel-plugin-import": "^1.11.2",
+    "ioredis": "^4.9.5",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
